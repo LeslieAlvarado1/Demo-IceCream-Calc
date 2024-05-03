@@ -1,0 +1,8 @@
+fieldset {
+    margin: 5%;
+}
+#btn-pizza {
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Set horizontal margins to auto to center the button */
+    text-align: center; /* Center the text inside the button */
+}
