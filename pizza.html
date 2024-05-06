@@ -6,17 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Selection</title>
     <link rel="stylesheet" href="pizza.css">
+   
 </head>
-
 <body>
-    <fieldset>
-        <legend>Select a pizza:</legend>
-        <input type="radio" name="pizza" id="hawaiian" value="5.25" checked> Hawaiian<br>
-        <input type="radio" name="pizza" id="pepperoni" value="6.00"> Pepperoni<br>
-        <input type="radio" name="pizza" id="steak" value="10.00"> Steak<br>
-    </fieldset>
-    <button id="btn-pizza" onclick="selectedPizza()">Verify my Pizza</button>
-
+    <header>
+        <nav>
+            <nav>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        Mr.IceCream
+                    </a>
+                    <a class="navbar-brand" href="pizza.html">
+                        Pizza
+                    </a>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Select a pizza:</legend>
+            <input type="radio" name="pizza" id="hawaiian" value="5.25" checked> Hawaiian<br>
+            <input type="radio" name="pizza" id="pepperoni" value="6.00"> Pepperoni<br>
+            <input type="radio" name="pizza" id="steak" value="10.00"> Steak<br>
+        </fieldset>
+        <button id="btn-pizza" onclick="selectedPizza()">Verify my Pizza</button>    
+    </main>
+   
     <script src="app.js"></script>
 </body>
 
